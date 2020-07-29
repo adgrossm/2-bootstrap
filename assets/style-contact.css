@@ -1,5 +1,5 @@
-main {
-    background-color: bisque;
+form {
+    background-color: grey;
     margin: 0;
     height: 80%;
     padding-top: 50px;
@@ -7,7 +7,8 @@ main {
     
 }
 
-h1 {padding-bottom: 10px;
+h1 {color: chartreuse;   
+    padding-bottom: 10px;
     border-bottom: 1px solid grey;
 }
 .container-contact {
@@ -25,7 +26,7 @@ footer {position: sticky;
     height: 30px;  
 }
 .sub-footer {
-    background-color: turquoise;
+    background-color: chartreuse;
     height: 5px;
 } 
 
@@ -34,7 +35,7 @@ h4 {
 }
 
 .footer {
-    background-color: yellowgreen;
+    background-color: navy;
     text-align: center;
     height: 30px;
     padding-top: 3.5px;
