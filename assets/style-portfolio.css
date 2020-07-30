@@ -26,14 +26,12 @@ footer {
     height: 5px;
     
 } 
-/* set font size and color for footer text */
-h4 {
-    font-size: 16px
-}
+
 /* create the navy footer and alignment */
-.footer {
+.footer h4 {
     background-color: navy;
     text-align: center;
     height: 30px;
     padding-top: 3.5px;
+    font-size: 1em;
 }
