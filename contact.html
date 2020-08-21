@@ -39,16 +39,28 @@
 
       <!-- Main section consisting of a simple form with name, email and a message -->
         <form>
-           <div class="container-fluid"><div class="container-contact"><h1>Contact</h1> <div class="form-group">
-            <label for="exampleInputEmail1">Name</label>
-            <input type="text" class="form-control" placeholder="Name">
-          </div> 
+           <div class="container-fluid">
+             <!-- contact info section -->
+            <div class="card mb-2"  style="width: 18rem;">
+              <ul class="list-group list-group-flush">
+                <a class="list-group-item" href="adgrossm@gmail.com">Email: adgrossm@gmail.com</a> 
+                <a class="list-group-item" href="https://www.linkedin.com/in/adam-grossman-charlotte/">LinkedIn</a>
+                <a class="list-group-item" href="https://adgrossm.github.io/2-bootstrap/">Portfolio</a>
+                <li class="list-group-item">732.236.7065</li>
+              </ul>
+            </div>
+            <!-- contact form area -->
+             <div class="container-contact rounded"><h1>Contact</h1> 
+              <div class="form-group">
+              <label for="exampleInputEmail1">Name</label>
+              <input type="text" class="form-control" placeholder="Name">
+              </div> 
           
-          <label for="exampleInputEmail1">Email</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-              <br>
-              <label for="exampleInputEmail1">Message</label>
-              <textarea class="form-control" id="validationTextarea" placeholder="Message"></textarea>
+              <label for="exampleInputEmail1">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                <br>
+                <label for="exampleInputEmail1">Message</label>
+                <textarea class="form-control" id="validationTextarea" placeholder="Message"></textarea>
            
             <div class="row mt-3 pl-2 ml-.3">
             <button type="submit" class="btn btn-primary" style="background-color: navy; border-color: navy;">Submit</button>
