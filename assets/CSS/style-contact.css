@@ -17,7 +17,7 @@ h1 {color: navy;
     width: 80%;
     background-color: white;
     padding: 20px;
-    bord
+    
     /* margin-left: 3px; */
 
 }
@@ -35,7 +35,7 @@ footer {
 } 
 /* set font size and color for footer text */
 h4 {
-    font-size: 16px
+    font-size: 16px;
 }
 /* create the navy footer and alignment */
 .footer h4 {
@@ -44,4 +44,16 @@ h4 {
     height: 30px;
     padding-top: 3.5px;
     font-size: 1em;
+    color: white;
+    
 }
+
+.Site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+.Site-content {
+    flex: 1;
+  }

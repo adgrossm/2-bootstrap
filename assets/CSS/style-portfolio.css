@@ -11,6 +11,7 @@ h1 {color: navy;
     padding-bottom: 10px;
     padding-top: 20px;
     border-bottom: 1px solid grey;
+    
 }
 
 /* to position the footer at bottom of page */
@@ -34,4 +35,5 @@ footer {
     height: 30px;
     padding-top: 3.5px;
     font-size: 1em;
+    color: white;
 }
